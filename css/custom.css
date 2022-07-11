@@ -130,17 +130,21 @@ html #mode .dark {
 }
 
 @media (min-width: 992px) {
+
     .affix,
     .affix-bottom {
         width: 213px
     }
+
     .affix {
         position: fixed;
         top: 20px
     }
+
     .affix-bottom {
         position: absolute
     }
+
     .affix .bs-docs-sidenav,
     .affix-bottom .bs-docs-sidenav {
         margin-top: 0;
@@ -149,6 +153,7 @@ html #mode .dark {
 }
 
 @media (min-width: 1200px) {
+
     .affix,
     .affix-bottom {
         width: 263px
@@ -179,7 +184,7 @@ html #mode .dark {
     font-size: 14px;
 }
 
-/* hover links */ 
+/* hover links */
 .docs-sidebar .nav>li:not(.active)>a:hover {
     color: #0E97EE;
     text-decoration: none;
@@ -187,11 +192,13 @@ html #mode .dark {
     border-left-width: 1px;
     border-left-color: #0E97EE;
 }
+
 /* focus links */
 .docs-sidebar .nav>li>a:focus {
     text-decoration: none;
     background-color: transparent;
 }
+
 /* active links */
 .docs-sidebar .nav>.active>a {
     color: #0E97EE;
@@ -199,14 +206,16 @@ html #mode .dark {
     background-color: transparent;
     border-left-color: #0E97EE;
 }
+
 /* all active links */
-.docs-sidebar .nav>.active>a, 
+.docs-sidebar .nav>.active>a,
 .docs-sidebar .nav>.active:hover>a,
 .docs-sidebar .nav>.active:focus>a {
     font-weight: 700;
 }
+
 /* nested active links */
-.docs-sidebar .nav .nav>.active>a, 
+.docs-sidebar .nav .nav>.active>a,
 .docs-sidebar .nav .nav>.active:hover>a,
 .docs-sidebar .nav .nav>.active:focus>a {
     font-weight: 500;
@@ -217,10 +226,12 @@ html #mode .dark {
         display: none;
         padding-bottom: 10px;
     }
+
     .docs-sidebar .nav>.active>ul {
         display: block
     }
 }
+
 /*Syntax Highlighter : Sublime Theme */
 
 .syntaxhighlighter {
@@ -286,6 +297,7 @@ html #mode .dark {
 .syntaxhighlighter .value {
     color: #96b5b4 !important;
 }
+
 /*css*/
 /* .syntaxhighlighter .css.plain,
 .syntaxhighlighter .css.plain a {
@@ -300,6 +312,7 @@ html #mode .dark {
 .syntaxhighlighter .color3 a {
     color: #b48ead !important;
 }
+
 /*js*/
 
 .syntaxhighlighter .js.keyword {
